@@ -14,4 +14,5 @@ def main():
     node = ParentNode(tag='div', children=[LeafNode(tag='span', value='Leaf node', props={'class': 'leaf'})], props={'class': 'parent'})
     print(node)
 
+
 main()
